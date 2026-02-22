@@ -1,0 +1,13 @@
+[project]
+name = "watercolor-dissolution-mcp"
+version = "1.0.0"
+description = "Watercolor Dissolution Aesthetics — medium transformation domain for photographic-to-painterly regime transitions"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+watercolor-dissolution-mcp = "watercolor_dissolution_mcp:main"
